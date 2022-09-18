@@ -1,0 +1,16 @@
+program_pemesanan_makanan_online
+
+deklarasi variabel
+harga_item_satuan, jarak_lokasi, harga_makanan, ongkos_kirim, harga_total, biaya/km as NUMBER
+
+Buka Sistem Pemesanan
+
+Catat Informasi Pemesanan Konsumen
+
+harga_makanan = Σ(Jumlah Item x Harga Satuan) 
+ongkos_kirim = jarak_lokasi * biaya/km
+harga_total = harga_makanan + ongkos_kirim
+
+
+
+Pesanan diantarkan oleh restoran
