@@ -11,6 +11,15 @@ harga_makanan = Σ(Jumlah Item x Harga Satuan)
 ongkos_kirim = jarak_lokasi * biaya/km
 harga_total = harga_makanan + ongkos_kirim
 
+Pembayaran
+IF Pembayaran Non-Tunai
+    IF Pembayaran Berhasil
+        Konfirmasi Pesanan
+    ELSE GO TO Pembayaran
+    END
+ELSE Konfirmasi Pesanan
+END
+
 
 
 Pesanan diantarkan oleh restoran
